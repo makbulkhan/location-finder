@@ -1,0 +1,6 @@
+name: 'Location Finder'
+type: module
+description: 'Find location using DHL API.'
+core_version_requirement: ^9 || ^10
+package: Custom
+configure: location_finder.settings

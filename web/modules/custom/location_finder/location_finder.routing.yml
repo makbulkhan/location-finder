@@ -1,0 +1,15 @@
+location_finder.form:
+  path: '/location-finder'
+  defaults:
+    _title: 'Location Finder'
+    _form: '\Drupal\location_finder\Form\LocationFinderForm'
+  requirements:
+    _permission: 'access content'
+
+location_finder.settings:
+  path: '/admin/config/location-finder'
+  defaults:
+    _form: '\Drupal\location_finder\Form\LocationFinderSettingsForm'
+    _title: 'Location Finder Settings'
+  requirements:
+    _permission: 'administer site configuration'
