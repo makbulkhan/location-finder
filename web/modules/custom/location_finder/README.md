@@ -19,7 +19,7 @@ The module requires configuration for the API settings, which can be done throug
 
 To configure the API settings:
 
-1. Go to the `Configuration` > `Location Finder` page (`/admin/config/location-finder`).
+1. Location Finder page (`/admin/config/location-finder`) from module install page.
 2. Enter the following details:
    - **API URL**: The URL of the API endpoint that provides location data.
    - **API Key**: The header name of the API key used for authentication.
